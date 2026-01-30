@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_name">Favoritos de Futurama</string>
+    <string name="widget_description">Muestra el número de personajes favoritos de Futurama</string>
+    <string name="widget_favorites_label">Favoritos</string>
+    <string name="widget_updated_placeholder">Actualizado —</string>
+    <string name="widget_refresh">Actualizar</string>
+</resources>

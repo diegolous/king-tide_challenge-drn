@@ -1,0 +1,242 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // Development Flavor
+        {
+            "name": "Development (Dev)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--dart-define-from-file=config/development.json"
+            ]
+        },
+        {
+            "name": "Development (Dev) - Profile",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--profile",
+                "--dart-define-from-file=config/development.json"
+            ],
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Development (Dev) - Release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "--release",
+                "--dart-define-from-file=config/development.json"
+            ],
+            "flutterMode": "release"
+        },
+        // Staging Flavor
+        {
+            "name": "Staging (Stg)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "stg",
+                "--dart-define-from-file=config/staging.json"
+            ]
+        },
+        {
+            "name": "Staging (Stg) - Profile",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "stg",
+                "--profile",
+                "--dart-define-from-file=config/staging.json"
+            ],
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Staging (Stg) - Release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "stg",
+                "--release",
+                "--dart-define-from-file=config/staging.json"
+            ],
+            "flutterMode": "release"
+        },
+        // Production Flavor
+        {
+            "name": "Production (Prod)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod",
+                "--dart-define-from-file=config/production.json"
+            ]
+        },
+        {
+            "name": "Production (Prod) - Profile",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod",
+                "--profile",
+                "--dart-define-from-file=config/production.json"
+            ],
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Production (Prod) - Release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod",
+                "--release",
+                "--dart-define-from-file=config/production.json"
+            ],
+            "flutterMode": "release"
+        },
+        // Chrome (Web) Configurations
+        // Development Flavor - Chrome
+        {
+            "name": "Development (Dev) - Chrome",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--dart-define-from-file=config/development.json"
+            ],
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Development (Dev) - Chrome Profile",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--profile",
+                "--dart-define-from-file=config/development.json"
+            ],
+            "flutterMode": "profile",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Development (Dev) - Chrome Release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--release",
+                "--dart-define-from-file=config/development.json"
+            ],
+            "flutterMode": "release",
+            "deviceId": "chrome"
+        },
+        // Staging Flavor - Chrome
+        {
+            "name": "Staging (Stg) - Chrome",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--dart-define-from-file=config/staging.json"
+            ],
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Staging (Stg) - Chrome Profile",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--profile",
+                "--dart-define-from-file=config/staging.json"
+            ],
+            "flutterMode": "profile",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Staging (Stg) - Chrome Release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": [
+                "--release",
+                "--dart-define-from-file=config/staging.json"
+            ],
+            "flutterMode": "release",
+            "deviceId": "chrome"
+        },
+        // Production Flavor - Chrome
+        {
+            "name": "Production (Prod) - Chrome",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--dart-define-from-file=config/production.json"
+            ],
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Production (Prod) - Chrome Profile",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--profile",
+                "--dart-define-from-file=config/production.json"
+            ],
+            "flutterMode": "profile",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Production (Prod) - Chrome Release",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--release",
+                "--dart-define-from-file=config/production.json"
+            ],
+            "flutterMode": "release",
+            "deviceId": "chrome"
+        },
+        // Legacy configurations (for backward compatibility)
+        {
+            "name": "Futurama Characters (Flutter)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Futurama Characters (Chrome)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome"
+        }
+    ]
+}
